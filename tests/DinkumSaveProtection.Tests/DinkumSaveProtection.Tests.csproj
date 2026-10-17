@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup><Compile Include="../../src/DinkumSaveProtection/Core/*.cs" Link="Core/%(Filename)%(Extension)" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/DinkumSaveProtection/Adapters.cs" Link="Adapters.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/DinkumSaveProtection/Runtime/NativeValidation.cs" Link="NativeValidation.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/DinkumSaveProtection/Runtime/GameData.cs" Link="GameData.cs" /></ItemGroup>
+  <ItemGroup><Compile Include="../../src/DinkumSaveProtection/Runtime/NativeProjection.cs" Link="NativeProjection.cs" /><Compile Include="../../src/DinkumSaveProtection/Runtime/NativeExportCodec.cs" Link="NativeExportCodec.cs" /></ItemGroup>
+</Project>
